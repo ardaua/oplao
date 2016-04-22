@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>scale</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="33.1108915%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#268F9A" offset="0%"></stop>
+            <stop stop-color="#0B3C4D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-814.000000, -372.000000)">
+            <g id="Fast,-Simple" transform="translate(-30.000000, 54.000000)">
+                <g id="scalable" transform="translate(830.000000, 319.000000)">
+                    <g id="scale" transform="translate(15.000000, 0.000000)">
+                        <path d="M0,4.42105263 L0,0 L28,0 L28,4.42105263 L28,28 L0,28 L0,4.42105263 Z" id="Rectangle-4" stroke="#FFFFFF" stroke-width="1.39999998" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M0,16.2105263 L0,14 L14,14 L14,16.2105263 L14,28 L0,28 L0,16.2105263 Z" id="Rectangle-4-Copy" stroke="#FFFFFF" stroke-width="1.39999998" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <g id="arrow" transform="translate(20.229646, 8.124621) rotate(-315.000000) translate(-20.229646, -8.124621) translate(16.379646, 2.874621)" fill="#FFFFFF">
+                            <rect id="Rectangle-10" x="3.08994949" y="2.8" width="1.4" height="7.7" rx="0.699999988"></rect>
+                            <path d="M3.30347243,0.351483679 C3.57297976,0.070517116 4.00542319,0.0658108902 4.2794448,0.351483679 L7.28314674,3.4829006 C7.55265407,3.76386716 7.44925906,3.99163556 7.06479384,3.99163556 L0.518123393,3.99163556 C0.128023083,3.99163556 0.0257488741,3.76857339 0.299770486,3.4829006 L3.30347243,0.351483679 Z" id="Rectangle-11"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

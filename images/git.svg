@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="36px" height="35px" viewBox="0 0 36 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Github</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#3E8EC3" offset="0%"></stop>
+            <stop stop-color="#3E75C3" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" filter="url(#filter-2)">
+        <g id="Login" transform="translate(-785.000000, -346.000000)" fill="url(#linearGradient-1)">
+            <g id="Body" transform="translate(0.000000, 120.000000)">
+                <g id="pop" transform="translate(470.000000, 146.000000)">
+                    <g id="social" transform="translate(146.000000, 80.000000)">
+                        <path d="M186.998938,0 C177.61175,0 170,7.57391573 170,16.9189202 C170,24.3923862 174.8705,30.7334126 181.626937,32.9708 C182.476937,33.1262329 182.787187,32.6038938 182.787187,32.1555705 C182.787187,31.7537712 182.772312,30.6900606 182.763813,29.2784764 C178.034625,30.3009498 177.036937,27.0104254 177.036937,27.0104254 C176.2645,25.0564123 175.149937,24.536188 175.149937,24.536188 C173.606125,23.4862231 175.266812,23.5073704 175.266812,23.5073704 C176.972125,23.6268529 177.869937,25.2509677 177.869937,25.2509677 C179.387188,27.8362286 181.849,27.0897279 182.818,26.6562077 C182.972062,25.5628908 183.411937,24.8174475 183.8975,24.3945009 C180.122437,23.9673248 176.154,22.5166181 176.154,16.0339045 C176.154,14.1866854 176.815937,12.6767661 177.903937,11.4935731 C177.728625,11.0653397 177.145312,9.34606187 178.069687,7.01668362 C178.069687,7.01668362 179.497687,6.56201606 182.744687,8.75076457 C184.1015,8.37539948 185.555,8.18824563 187.001062,8.18084406 C188.445,8.18824563 189.899562,8.37539948 191.257438,8.75076457 C194.502313,6.56201606 195.927125,7.01668362 195.927125,7.01668362 C196.854688,9.34606187 196.271375,11.0653397 196.096063,11.4935731 C197.186187,12.6767661 197.843875,14.1866854 197.843875,16.0339045 C197.843875,22.5324786 193.869063,23.9630954 190.082312,24.3818125 C190.692187,24.9041515 191.236187,25.9361411 191.236187,27.5147892 C191.236187,29.776496 191.214937,31.6004531 191.214937,32.1555705 C191.214937,32.6081233 191.520938,33.1346918 192.383688,32.9686853 C199.13375,30.7270684 204,24.3902714 204,16.9189202 C204,7.57391573 196.38825,0 186.998938,0" id="Github"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

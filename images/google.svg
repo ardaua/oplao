@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="31px" viewBox="0 0 48 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>GooglePlus</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F9552D" offset="0%"></stop>
+            <stop stop-color="#F93F2D" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" filter="url(#filter-2)">
+        <g id="Login" transform="translate(-699.000000, -349.000000)" fill="url(#linearGradient-1)">
+            <g id="Body" transform="translate(0.000000, 120.000000)">
+                <g id="pop" transform="translate(470.000000, 146.000000)">
+                    <g id="social" transform="translate(146.000000, 80.000000)">
+                        <path d="M124.937107,14.9158416 L124.937107,9.89108911 L121.320755,9.89108911 L121.320755,14.9158416 L116.113208,14.9158416 L116.113208,18.5049505 L121.320755,18.5049505 L121.320755,23.6732673 L124.937107,23.6732673 L124.937107,18.5049505 L130,18.5049505 L130,14.9158416 L124.937107,14.9158416 L124.937107,14.9158416 Z M98.6100629,14.6287129 L98.6100629,20.3712871 C98.6100629,20.3712871 104.22322,20.3638218 106.508755,20.3638218 C105.271094,24.0865891 103.346616,26.1138614 98.6100629,26.1138614 C93.8166604,26.1138614 90.0754717,22.2572921 90.0754717,17.5 C90.0754717,12.7427079 93.8166604,8.88613861 98.6100629,8.88613861 C101.144403,8.88613861 102.781164,9.77020792 104.282528,11.0024208 C105.484314,9.80968812 105.383925,9.63970792 108.441478,6.7740198 C105.84595,4.42932673 102.396239,3 98.6100629,3 C90.5411132,3 84,9.49183663 84,17.5 C84,25.5080198 90.5411132,32 98.6100629,32 C110.670887,32 113.618792,21.5772277 112.641509,14.6287129 L98.6100629,14.6287129 L98.6100629,14.6287129 Z" id="GooglePlus"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
