@@ -11,6 +11,7 @@
     <link rel="icon" href="images/favicon.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles-menu.css">
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -68,49 +69,53 @@
 
     <div class="cont">
         <div class="row row-block">
-            <div class="col-md-1"></div>
-            <div class="col-md-2 proposition-block proposition-block1">
-                <span>Free</span><br><br>
-                <span class="price">$0</span>
-                <p>Per Month</p><br><br>
-                <span>5.000</span>
-                <p>API Calls Per Month</p><br><br>
-                <button class="butt1">Get started</button>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide col-md-2 proposition-block proposition-block1">
+                        <span>Free</span><br><br>
+                        <span class="price">$0</span>
+                        <p>Per Month</p><br><br>
+                        <span>5.000</span>
+                        <p>API Calls Per Month</p><br><br>
+                        <button class="butt1">Get started</button>
+                    </div>
+                    <div class="swiper-slide col-md-2 proposition-block proposition-block2">
+                        <span>Starter</span><br><br>
+                        <span class="price">$3</span>
+                        <p>Per Month</p><br><br>
+                        <span>15.000</span>
+                        <p>API Calls Per Month</p><br><br>
+                        <button class="butt2">Get started</button>
+                    </div>
+                    <div class="swiper-slide col-md-2 proposition-block proposition-block3">
+                        <span>Advanced</span><br><br>
+                        <span class="price">$5</span>
+                        <p>Per Month</p><br><br>
+                        <span>30.000</span>
+                        <p>API Calls Per Month</p><br><br>
+                        <button class="butt3">Get started</button>
+                    </div>
+                    <div class="swiper-slide col-md-2 proposition-block proposition-block4">
+                        <div class="popular">Popular</div>
+                        <span>Developer</span><br><br>
+                        <span class="price">$35</span>
+                        <p>Per Month</p><br><br>
+                        <span>200.000</span>
+                        <p>API Calls Per Month</p><br><br>
+                        <button class="butt4">Get started</button>
+                    </div>
+                    <div class="swiper-slide col-md-2 proposition-block proposition-block5">
+                        <span>Developer PRO</span><br><br>
+                        <span class="price">$120</span>
+                        <p>Per Month</p><br><br>
+                        <span>500.000</span>
+                        <p>API Calls Per Month + Premium support 24*7</p><br>
+                        <button class="butt5">Get started</button>
+                    </div>
+                </div>
+                <!-- Add Scrollbar -->
+                <div class="swiper-scrollbar"></div>
             </div>
-            <div class="col-md-2 proposition-block proposition-block2">
-                <span>Starter</span><br><br>
-                <span class="price">$3</span>
-                <p>Per Month</p><br><br>
-                <span>15.000</span>
-                <p>API Calls Per Month</p><br><br>
-                <button class="butt2">Get started</button>
-            </div>
-            <div class="col-md-2 proposition-block proposition-block3">
-                <span>Advanced</span><br><br>
-                <span class="price">$5</span>
-                <p>Per Month</p><br><br>
-                <span>30.000</span>
-                <p>API Calls Per Month</p><br><br>
-                <button class="butt3">Get started</button>
-            </div>
-            <div class="col-md-2 proposition-block proposition-block4">
-                <div class="popular-plans">Popular</div>
-                <span>Developer</span><br><br>
-                <span class="price">$35</span>
-                <p>Per Month</p><br><br>
-                <span>200.000</span>
-                <p>API Calls Per Month</p><br><br>
-                <button class="butt4">Get started</button>
-            </div>
-            <div class="col-md-2 proposition-block proposition-block5">
-                <span>Developer PRO</span><br><br>
-                <span class="price">$120</span>
-                <p>Per Month</p><br><br>
-                <span>500.000</span>
-                <p>API Calls Per Month + Premium support 24*7</p><br>
-                <button class="butt5">Get started</button>
-            </div>
-            <div class="col-md-1"></div>
         </div>
     </div>
 
@@ -139,9 +144,23 @@
     </div>
 </footer>
 
+<!-- Swiper JS -->
+<script src="js/swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        scrollbar: '.swiper-scrollbar',
+        scrollbarHide: true,
+        slidesPerView: 'auto',
+        centeredSlides: false,
+        spaceBetween: 30,
+        grabCursor: true
+    });
+</script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/script-menu.js"></script>
-<!-- <script src="js/bootstrap.min.js"></script> -->
 
 </body>
 </html>

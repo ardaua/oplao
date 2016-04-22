@@ -644,6 +644,10 @@ footer {
     background-color: #eee;
 }
 
+.pricing-block .row-block {
+    padding: 0 6% 5%;
+}
+
 .library-block {
     min-height: 641px;
     background-image: linear-gradient(180deg, #f0f8fc 0%, #f0f8fc 9%, #f0f8fc 100%);
