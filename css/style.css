@@ -334,9 +334,9 @@ ol, ul { list-style: none }
     letter-spacing: -0.2px;
 }
 
-.row-marg {
-    margin-top: 85px;
-}
+/*.row-marg {*/
+    /*margin-top: 85px;*/
+/*}*/
 
 .info-api-block .row-block ul {
     line-height: 23px;
@@ -981,6 +981,14 @@ Class name automatically added to element */
 
 /*-------------------------------------------------------*/
 
+.row-marg {
+    margin-top: 50px;
+}
+
+.row-marg-text {
+    margin-bottom: 5%;
+}
+
 @media (max-width: 1199px) {
 
     .interactive-block .tab-padding {
@@ -1041,7 +1049,7 @@ Class name automatically added to element */
     }
 
     .row-marg-text {
-        margin-top: 5px;
+       margin-bottom: 5%;
     }
 
     .interactive-block span {
