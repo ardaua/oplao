@@ -1032,6 +1032,10 @@ Class name automatically added to element */
 
 @media (max-width: 767px) {
 
+    .head-menu .nav-element {
+        position: absolute;
+    }
+
     .div-header {
         margin-top: 0px;
     }

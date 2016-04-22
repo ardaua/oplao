@@ -43,7 +43,8 @@
 }
 #cssmenu {
   font-family: Montserrat, sans-serif;
-  /*background: #333333;*/
+  padding-top: 3%;
+  padding-right: 0;
 }
 #cssmenu > ul > li {
   float: left;
