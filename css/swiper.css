@@ -13,9 +13,9 @@
  * Released on: February 7, 2016
  */
 .swiper-container {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   position: relative;
-  overflow: hidden;
+  /*overflow: hidden;*/
   /* Fix of Webkit flickering */
   z-index: 1;
 }
@@ -479,7 +479,7 @@ button.swiper-pagination-bullet {
 .swiper-container-horizontal > .swiper-scrollbar {
   position: absolute;
   left: 1%;
-  bottom: 3px;
+  bottom: -10px;
   z-index: 50;
   height: 5px;
   width: 98%;

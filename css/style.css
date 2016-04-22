@@ -558,9 +558,9 @@ footer {
     margin-right: 0;
 }
 
-.pricing-block .row-block {
-    padding: 7px 0 7%;
-}
+/*.pricing-block .row-block {*/
+    /*padding: 7px 0 7%;*/
+/*}*/
 
 .pricing-block .popular,
 .pricing-block .popular-plans {
