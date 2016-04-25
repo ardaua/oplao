@@ -57,12 +57,14 @@
             </div>
         </div>
 
-        <div class="cont">
-            <div class="head-text center">
-                <h1>Online World Weather API</h1>
-                <span>Completely managed online - Simple to use - Built for developers, by developers</span>
-                <p>APIXU is a powerful fully managed weather API platform that provides extensive APIs that range from weather and astronomy through to time zone and geolocation.</p>
-                <a href="#">Let’s get started with APIXU API!</a>
+        <div id="foo">
+            <div class="cont">
+                <div class="head-text center">
+                    <h1>Online World Weather API</h1>
+                    <span>Completely managed online - Simple to use - Built for developers, by developers</span>
+                    <p>APIXU is a powerful fully managed weather API platform that provides extensive APIs that range from weather and astronomy through to time zone and geolocation.</p>
+                    <a href="#">Let’s get started with APIXU API!</a>
+                </div>
             </div>
         </div>
     </div>
@@ -197,6 +199,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/script-menu.js"></script>
 <!-- <script src="js/bootstrap.min.js"></script> -->
-
+<script>
+    $(document).ready(function () {
+        $('#menu-button').click(function () {
+            $('#foo').toggleClass('blur');});
+    });
+</script>
 </body>
 </html>

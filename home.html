@@ -74,7 +74,7 @@
             </div>
         </div>
 
-        <div class="test">
+        <div id="foo">
             <div class="cont">
             <div class="head-text center">
                 <h1>Affordable and fully managed weather API which:</h1>
@@ -457,16 +457,8 @@
 
 <script>
     $(document).ready(function () {
-        if ('.menu-opened') {
-            $('.test').css({ 'filter': 'blur(3px)' });
-            $('.test').css({ '-webkit-filter': 'blur(3px)' });
-            $('.test').css({ '-moz-filter': 'blur(3px)' });
-            $('.test').css({ '-o-filter': 'blur(3px)' });
-            $('.test').css({ '-ms-filter': 'blur(3px)' });
-        }
-        else {
-            $('.test').css({ 'display': 'none' });
-        }
+        $('#menu-button').click(function () {
+        $('#foo').toggleClass('blur');});
     });
 </script>
 

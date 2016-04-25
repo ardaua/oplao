@@ -68,7 +68,8 @@
     </div>
 </header>
 
-<div class="interactive-block">
+<div id="foo">
+    <div class="interactive-block">
     <div class="cont">
         <h1 class="center">Interactive API Explorer</h1>
         <span class="center">Apixu interactive API explorer or IO Docs allows you to test our APIs and methods. It returns response headers, response code and response body.</span>
@@ -245,6 +246,7 @@
         </div><!--tab-->
     </div>
 </div>
+</div>
 
 <div class="response-block">
     <button class="btn-response">Show Response</button>
@@ -288,6 +290,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script-menu.js"></script>
-
+<script>
+    $(document).ready(function () {
+        $('#menu-button').click(function () {
+            $('#foo').toggleClass('blur');});
+    });
+</script>
 </body>
 </html>
