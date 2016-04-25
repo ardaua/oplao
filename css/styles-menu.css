@@ -211,6 +211,10 @@
     top: 80px;
   }
 
+  #cssmenu .fone  {
+    background-color: rgba(8, 24, 37, 0.43);
+  }
+
   #cssmenu ul li {
       /*filter: progid:DXImageTransform.Microsoft.Blur(pixelRadius=5);*/
   }
