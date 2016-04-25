@@ -1097,14 +1097,6 @@ Class name automatically added to element */
         text-align: center;
     }
 
-    .open {
-        -webkit-filter: blur(5px);
-        -moz-filter: blur(5px);
-        -o-filter: blur(5px);
-        -ms-filter: blur(5px);
-        filter: blur(5px);
-    }
-
     .interactive-block .tab-content .tab-pane .row-title {
         border-bottom: none;
     }
