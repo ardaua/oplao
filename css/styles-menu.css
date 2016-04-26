@@ -43,7 +43,7 @@
 }
 #cssmenu {
   font-family: Montserrat, sans-serif;
-  padding-top: 3%;
+  /*padding-top: 3%;*/
   padding-right: 0;
 }
 #cssmenu > ul > li {
@@ -275,6 +275,7 @@
     font-size: 12px;
     text-transform: uppercase;
     font-weight: 700;
+    margin-top: 3%;
   }
 
   #cssmenu #menu-button:after {

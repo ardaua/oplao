@@ -1101,5 +1101,8 @@ Class name automatically added to element */
         border-bottom: none;
     }
 
+    .up-layer {
+        z-index: 10000;
+    }
 }
 
